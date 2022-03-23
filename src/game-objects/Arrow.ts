@@ -2,7 +2,7 @@ import { Orientation } from '../geometry/orientation';
 import { Player } from './Player';
 import { ASSETS } from '../constants/assets';
 
-const ARROW_SPEED = 150;
+const ARROW_SPEED = 350;
 
 export class Arrow extends Phaser.Physics.Arcade.Sprite {
   public scene: Phaser.Scene;
